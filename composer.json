@@ -1,0 +1,41 @@
+{
+    "name": "code-pilots/symfony-command-io",
+    "description": "IO style (prefix pid)",
+    "keywords": [
+        "php",
+        "symfony",
+        "command",
+        "io"
+    ],
+    "homepage": "https://github.com/code-pilots/symfony-command-io",
+    "authors": [
+        {
+            "name": "Roman Yastrebov",
+            "email": "tirastwo@gmail.com"
+        },
+        {
+            "name": "Vladyslav Ogniev",
+            "email": "korvin96@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^6.1",
+        "symfony/framework-bundle": "^6.1"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^4.0|^5.4",
+        "vimeo/psalm": "^4.30",
+        "friendsofphp/php-cs-fixer": "^3.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CodePilots\\SymfonyCommandIo\\": "src/",
+            "CodePilots\\SymfonyCommandIo\\tests\\Command\\": "tests/Command"
+        }
+    }
+}

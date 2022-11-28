@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Warning":6,"CommandTest::testCommand":4,"CommandTest::testExecute":4},"times":{"Warning":0.001,"CommandTest::testCommand":0.001,"CommandTest::testExecute":0.025}}
