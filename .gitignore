@@ -1,2 +1,6 @@
 /vendor/
-/.idea/
+/tools/
+.idea
+/phpunit.xml
+.php-cs-fixer.cache
+.phpunit.result.cache
